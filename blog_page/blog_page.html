@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>FullScreen Popup</title>
+	<link rel="stylesheet" href="E:\winter_codess\blog_style.css">
+</head>
+
+<body>
+	<div class="headings">
+	<h1>Hospital Appointment Mangement System</h1>
+
+	<h3>Click below to see popup!!</h3>
+    </div>
+	<button onclick="togglePopup()">Show Popup!</button>
+    <div class="bimg">
+    	<img src="E:\winter_codess\bg.png" width="500px" height="350px">
+    </div>
+
+	<div class="fullscreen hidden flex-container-bottom">
+		<div class="container">
+
+			<input type="radio" name="blogs" id="b1" checked>
+			<input type="radio" name="blogs" id="b2">
+			<input type="radio" name="blogs" id="b3">
+
+			<div class="slide_img" id="one">
+				<img src="">
+				Slide 1
+				<label for="b3" class="pre"></label> 
+				<label for="b2" class="nxt"></label> 
+			</div>
+			<div class="slide_img" id="two">
+				<img src="">
+				Slide 2
+				<label for="b1" class="pre"></label> 
+				<label for="b3" class="nxt"></label> 
+			</div>
+			<div class="slide_img" id="three">
+				<img src="">
+				Slide 3
+				<label for="b2" class="pre"></label> 
+				<label for="b1" class="nxt"></label> 
+			</div>
+            
+            <div class="nav">
+            	<label class="dots" id="dot1" for="b1"></label>
+            	<label class="dots" id="dot2" for="b2"></label>
+            	<label class="dots" id="dot3" for="b3"></label>
+            </div>  
+		</div>
+		<p>Click below to close this popup</p>
+		<div class="closepop">
+		<button onclick="togglePopup()">Close Popup</button>
+	    </div>
+	</div>
+    <script src="E:\winter_codess\blog_page.js"></script>
+</body>
+</html>
