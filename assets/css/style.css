@@ -1,6 +1,6 @@
 /**
-* Template Name: Medilab - v2.1.0
-* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
+* Template Name: Bhiśaj - v2.1.0
+* Template URL: https://bootstrapmade.com/Bhiśaj-free-medical-bootstrap-theme/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
